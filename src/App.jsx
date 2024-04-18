@@ -41,7 +41,7 @@ console.log(todos)
 
   return (
 <TodoProvider value={{todos,addTodo,updateTodo,deleteTodo,toggleComplete}} >
-<div className="bg-[#172842] min-w-full min-h-screen w-[1000px] py-8">
+<div className="bg-[#172842] sm:min-w-full  min-h-screen sm:w-[1000px] py-8">
                 <div className="w-[100%] shadow-md rounded-lg px-4 py-3 text-white">
                     <h1 className="text-2xl font-bold text-center mb-8 mt-2">Personal Todo List Website</h1>
                     <div className="mb-4">

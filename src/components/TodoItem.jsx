@@ -19,7 +19,7 @@ function TodoItem({ todo }) {
     console.log("todo" , todo)
     return (
         <div
-            className={`flex border border-black/10 rounded-lg px-3 py-1.5 gap-x-3 shadow-sm shadow-white/50 duration-300  text-black ${todo.isCompleted ? "bg-cyan-300" : "bg-purple-500"
+            className={`flex border sm:w-full mx-auto border-black/10 rounded-lg px-3 py-1.5 gap-x-3 shadow-sm shadow-white/50 duration-300  text-black ${todo.isCompleted ? "bg-cyan-300" : "bg-purple-500"
             }`}
         >
             <input
